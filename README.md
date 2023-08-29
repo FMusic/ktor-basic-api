@@ -53,6 +53,11 @@ Add your business logic and services, and inject them using Koin in the Koin.kt 
 Customize the sample controller in Routes.kt or create new controllers as needed.
 Feel free to fork this repository and customize it to your needs.
 
+# To Do
+- [ ] Add Docker Support
+- [ ] Add Execution on Local Machine
+- [ ] Auto Export Swagger File
+
 # Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements or additional features.
