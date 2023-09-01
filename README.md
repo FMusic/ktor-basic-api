@@ -57,6 +57,7 @@ Feel free to fork this repository and customize it to your needs.
 - [ ] Add Docker Support
 - [ ] Add Execution on Local Machine
 - [ ] Auto Export Swagger File
+- [x] Add Swagger UI
 
 # Contributing
 

@@ -32,7 +32,13 @@ dependencies {
     implementation("io.ktor:ktor-server-netty-jvm")
     implementation("ch.qos.logback:logback-classic:$logback_version")
 
+
+    implementation("io.ktor:ktor-server-swagger:$ktor_version")
+
     implementation("io.insert-koin:koin-ktor:$koinVersion")
+
+    implementation("io.swagger.core.v3:swagger-annotations:2.1.7")
+    implementation("io.swagger.core.v3:swagger-jaxrs2:2.1.7")
 
     testImplementation("io.ktor:ktor-server-tests-jvm")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")

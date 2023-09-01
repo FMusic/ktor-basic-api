@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Your API Title
+  version: 1.0.0
+  description: Your API Description
+paths:
+  /hello:
+    get:
+      summary: Get Hello Message
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                message: Hello, World!
+        '500':
+          description: Internal Server Error
+          content:
+            text/plain:
+              example: "500: Internal Server Error"
